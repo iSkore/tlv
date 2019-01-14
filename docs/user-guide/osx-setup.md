@@ -24,9 +24,13 @@ Java(TM) SE Runtime Environment (build 1.8.0_192-b12)
 Java HotSpot(TM) 64-Bit Server VM (build 25.192-b12, mixed mode)
 ```
 
-3. Install `gradle`
-- `brew install gradle`
-- `brew switch gradle 4.10.1`
+3. Install [SDK](https://sdkman.io/install)
+- `curl -s "https://get.sdkman.io" | bash`
+- `source "$HOME/.sdkman/bin/sdkman-init.sh"`
+- `sdk version`
+
+4. Install `gradle`
+- `sdk install gradle 4.10.1`
 
 Should read:
 ```
@@ -47,7 +51,7 @@ JVM:          1.8.0_192 (Oracle Corporation 25.192-b12)
 OS:           Mac OS X 10.14.2 x86_64
 ```
 
-4. Install [`docker`](https://docs.docker.com/docker-for-mac/install/)
+5. Install [`docker`](https://docs.docker.com/docker-for-mac/install/)
 - Includes `docker` and `docker-compose`
 
 Should read:
